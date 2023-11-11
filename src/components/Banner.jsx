@@ -11,8 +11,9 @@ const [modalOpen, setModalOpen] = useState(false)
     <div>
       {modalOpen && <Modal setModalOpen={setModalOpen} />}
       <div className='bg-[url(/Seattle-Rainier-Day.jpg)] h-[440px]
-                      bg-cover flex flex-col gap-20
-                      lg:flex-row lg:justify-center lg:gap-40'>
+                      bg-cover bg-fixed flex flex-col gap-20
+                      lg:flex-row lg:justify-center lg:gap-40
+                      xl:h-[65vw] max-h-[85vh]'>
         <div className='flex justify-center items-center my-6' >
           <img
             src={logo}
