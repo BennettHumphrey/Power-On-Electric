@@ -21,6 +21,7 @@ export default {
         'text':'#4d4d4d',
         'bubble':'#4d4d4de6',
         'footer':'#cccccc',
+        'footer-text':'white'
       },
     },
   },

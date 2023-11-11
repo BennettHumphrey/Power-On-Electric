@@ -14,9 +14,9 @@ const Nav = () => {
                     alt='company-logo'
                 />
             </div>
-            <div className='w-full flex items-center text-xl justify-center
-                                gap-[5vw] pr-[6vw] text-company'>
-                <p>
+            <div className='w-full flex items-center justify-center
+                                gap-[5vw] pr-[6vw]'>
+                <p className='font-bold text-company text-3xl' >
                     Power On Electric
                 </p>
             </div>
