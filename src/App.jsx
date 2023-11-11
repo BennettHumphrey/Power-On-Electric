@@ -13,7 +13,7 @@ function App() {
       <Nav  />
       <Banner  />
       <InfoSection href={services.href} header = {services.header} />
-      <BubblesSection bubbles = {services.bubbles} img = {services.img} />
+      <BubblesSection bubbles = {services.bubbles} img = {services.img} imgPos={services.imgPos} />
       <InfoSection href={services.href} header = {about.header} body = {about.body} />
       <BubblesSection bubbles = {about.bubbles} img = {about.img} />
       <Footer  />

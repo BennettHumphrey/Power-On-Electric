@@ -17,14 +17,10 @@ export default {
     extend: {
       colors: {
         'main': '#e6e6e6',
-        'accent':'#cccccc',
-        'company':'#e6e6e6',
-        'dark':'#999999',
-        'dark-opacity':'#999999cc',
+        'company':'#4f65ac',
         'text':'#4d4d4d',
         'bubble':'#4d4d4de6',
-        'link':'#000000',
-        'footer':'#4bb3e3'
+        'footer':'#cccccc',
       },
     },
   },

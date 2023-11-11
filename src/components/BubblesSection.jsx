@@ -1,13 +1,13 @@
 import React from 'react'
 import { useWindowWidth } from '../assets/useWindowWidth'
 
-const BubblesSection = ({ bubbles, img }) => {
+const BubblesSection = ({ bubbles, img, imgPos }) => {
 
   const width = useWindowWidth()
 
 
   return (
-    <div className={`${img} bg-cover min-h-[540px]
+    <div className={`${img} ${imgPos} bg-cover min-h-[540px]
                     flex flex-col justify-around items-around gap-6 p-8
                     ` + (bubbles.length >= 3 ? 'lg:flex-row' : 'md:flex-row')}>
         {bubbles.map((data, key) => (

@@ -1,4 +1,5 @@
 import React from 'react'
+import { logo } from '../assets/data'
 
 const Nav = () => {
   return (
@@ -6,7 +7,7 @@ const Nav = () => {
         <div  className='bg-main z-10 flex h-12 text-xl' >
             <div href='#top' >
                 <img 
-                    src='/bolt.svg' 
+                    src={logo} 
                     height='50px'
                     width='50px' 
                     className='h-10 w-10 mt-1 ml-3' 
@@ -14,9 +15,9 @@ const Nav = () => {
                 />
             </div>
             <div className='w-full flex items-center text-xl justify-center
-                                gap-[5vw] pr-[6vw]'>
+                                gap-[5vw] pr-[6vw] text-company'>
                 <p>
-                    Fake Electric
+                    Power On Electric
                 </p>
             </div>
         </div>
