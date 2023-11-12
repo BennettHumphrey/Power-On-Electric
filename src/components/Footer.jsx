@@ -24,10 +24,13 @@ const Footer = () => {
                   </div>
                   <p>206-466-7202</p>
               </div>
-              <div className='my-2 mx-4 flex text-footer-text items-center'>
-                  <div className='flex justify-center items-center border border-main mr-2 w-[35px] h-[35px]'>
+              <div className='my-2 mx-4 flex text-footer-text items-center 
+                            hover:text-orange-400 group duration-700'>
+                  <div className='flex justify-center items-center border border-main mr-2 w-[35px] h-[35px]
+                                  group-hover:rounded-lg group-hover:scale-110 duration-1000'>
                     <a href="mailto:Poweronelectric23@gmail.com">
-                      <HiEnvelope className='text-main h-full w-full p-2' />
+                      <HiEnvelope className='text-main h-full w-full p-2 group-hover:text-orange-400 duration-1000
+                                              group-hover:scale-150' />
                     </a>
                   </div>
                   <a href="mailto:Poweronelectric23@gmail.com">
@@ -42,19 +45,22 @@ const Footer = () => {
               {/* Social Media div */}
 
 
-          <div className='flex justify-center flex-col' >
+              <div className='flex justify-center flex-col' >
               <h4 className=' font-bold text-footer-text border-b-[2px] border-b-main
               max-w-[200px] mt-8 mb-8 mx-4 sm:mb-[71px]'>Social Media</h4>
               <div className='flex ml-4 pb-12' >
-                  <div className='flex justify-center items-center bg-main ml-[0.2rem] w-[60px] h-[60px]'  >
-                    <CgInstagram className='text-company w-3/5 h-3/5' />
-                  </div>
-                  <div className='flex justify-center items-center bg-main ml-[0.2rem] w-[60px] h-[60px]' >
-                    <CgFacebook className='text-company w-3/5 h-3/5' />
-                  </div>
-                  <div className='flex justify-center items-center bg-main ml-[0.2rem] w-[60px] h-[60px]' >
-                    <FaLinkedinIn className='text-company w-3/5 h-3/5' />
-                  </div>
+                  <a className='flex justify-center items-center bg-main ml-[0.2rem] w-[60px] h-[60px] rounded-xl
+                                hover:bg-orange-400 duration-700 hover:cursor-pointer group hover:rounded-3xl hover:scale-95'  >
+                    <CgInstagram className='text-company w-3/5 h-3/5 group-hover:text-main duration-1000' />
+                  </a>
+                  <a className='flex justify-center items-center bg-main ml-[0.2rem] w-[60px] h-[60px] rounded-xl
+                                hover:bg-orange-400 duration-700 hover:cursor-pointer group hover:rounded-3xl hover:scale-95' >
+                    <CgFacebook className='text-company w-3/5 h-3/5 group-hover:text-main duration-1000' />
+                  </a>
+                  <a className='flex justify-center items-center bg-main ml-[0.2rem] w-[60px] h-[60px] rounded-xl
+                                hover:bg-orange-400 duration-700 hover:cursor-pointer group hover:rounded-3xl hover:scale-95' >
+                    <FaLinkedinIn className='text-company w-3/5 h-3/5 group-hover:text-main duration-1000' />
+                  </a>
               </div>
           </div>
 
