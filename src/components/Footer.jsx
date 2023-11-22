@@ -45,7 +45,7 @@ const Footer = () => {
               {/* Social Media div */}
 
 
-              <div className='flex justify-center flex-col' >
+            {/* <div className='flex justify-center flex-col' >
               <h4 className=' font-bold text-footer-text border-b-[2px] border-b-main
               max-w-[200px] mt-8 mb-8 mx-4 sm:mb-[71px]'>Social Media</h4>
               <div className='flex ml-4 pb-12' >
@@ -62,7 +62,7 @@ const Footer = () => {
                     <FaLinkedinIn className='text-company w-3/5 h-3/5 group-hover:text-main duration-1000' />
                   </a>
               </div>
-          </div>
+            </div> */}
 
           
       </div>

@@ -2,6 +2,7 @@
 
 
 export const logo = 'Company-Logo-Crop.webp'
+export const headerLogo = 'Company-Logo-500.webp'
 
 export const services = {
     header: 'We do all types of Residential and Commercial projects!',
@@ -15,11 +16,11 @@ export const services = {
             body: 'The installation, renovation, maintenance, or repair of any electrical equipment, control systems, and electrical devices.',
         },
         {
-            header: 'Voice Data Communications',
-            body: 'We install and maintain electric vehicle chargers, from home setups to complex commercial networks, and we are EVITP certified.',
+            header: 'EV Chargers',
+            body: 'We install and maintain electric vehicle chargers, including home charging stations, and we are EVITP certified.',
         },
         {
-            header: 'Data & Security Wiring',
+            header: 'Data, Security & Voice Systems',
             body: 'Residential or commercial routing, connection, and maintenance of data and security systems, everything from cameras to WiFi networks.',
         },
     ]

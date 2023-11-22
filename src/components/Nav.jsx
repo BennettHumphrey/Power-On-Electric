@@ -16,7 +16,7 @@ const Nav = () => {
             </div>
             <div className='w-full flex items-center justify-center
                                 gap-[5vw] pr-[6vw]'>
-                <p className='font-bold text-company text-3xl' >
+                <p className='font-bold text-company text-2xl xxsm:text-3xl' >
                     Power On Electric
                 </p>
             </div>
