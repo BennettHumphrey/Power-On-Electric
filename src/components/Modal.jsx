@@ -4,7 +4,7 @@ const Modal = ({ setModalOpen }) => {
   return (
     <div className='fixed transition ease-in-out
                     top-0 left-0 right-0 bottom-0 bg-[#00000088]
-                    flex justify-center items-center z-40'
+                    flex justify-center items-center z-[100]'
                     onClick={() => setModalOpen(false)}>
       <div className='transition ease-in-out mt-8 h-[360px] p-3
           z-50 border-[2px] border-black rounded-lg bg-main max-w-[80%]'

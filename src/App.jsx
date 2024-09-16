@@ -6,6 +6,12 @@ import BubblesSection from './components/BubblesSection'
 import Footer from './components/Footer'
 import { about, services } from './assets/data'
 
+
+// TODO:
+// Move to Vercel
+
+
+
 function App() {
 
   return (

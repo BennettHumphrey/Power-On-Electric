@@ -11,12 +11,12 @@ const Footer = () => {
       <div className='flex flex-col justify-center sm:flex-row sm:mb-8' >
           <div className='flex flex-col justify-center' >
               <h4 className=' font-bold text-footer-text border-b-[2px] border-b-main
-              max-w-[200px] mt-8 mx-4' >Power On Electric LTD</h4>
+              max-w-[200px] mt-8 mx-4' >Power On Electric LLC</h4>
               <div className='my-2 mx-4 flex text-footer-text items-center' >
                   <div className='flex justify-center items-center border border-main mr-2 w-[35px] h-[35px]' >
                     <HiMapPin className='text-main h-full w-full p-2' />
                   </div>
-                  <p>123 fake street<br/>Sumner, WA</p>
+                  <p>Sumner, WA</p>
               </div>
               <div className='my-2 mx-4 flex text-footer-text items-center' >
                   <div className='flex justify-center items-center border border-main mr-2 w-[35px] h-[35px]' >
