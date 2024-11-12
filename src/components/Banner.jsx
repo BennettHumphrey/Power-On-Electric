@@ -34,14 +34,14 @@ const [modalOpen, setModalOpen] = useState(false)
                             
 
                             
-                            translate-x-[87px] translate-y-[55px]
-                            lg:translate-x-[114px] lg:translate-y-[70px]
+                            translate-x-[87px] translate-y-[75px]
+                            lg:translate-x-[114px] lg:translate-y-[90px]
 
                             group-hover:bg-yellow-300' />
           </div>
         </div>
-        <div className='flex flex-col gap-8 lg:h-[200px] my-auto relative top-[-30px]'>
-          <p className='text-white bg-[#00000040] text-center text-2xl font-extrabold rounded-2xl
+        <div className='flex flex-col gap-4 md:gap-6 lg:h-[200px] my-auto relative top-[-30px]'>
+          <p className='text-white bg-[#00000040] text-center text-xl md:text-2xl font-extrabold rounded-2xl
                           w-[80%] max-w-[300px] m-auto p-1 font-serif lg:max-w-[360px]
                           px-3' >
             {'To contact an electrician call '} 

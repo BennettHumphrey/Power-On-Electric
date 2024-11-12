@@ -18,11 +18,18 @@ const Footer = () => {
                   </div>
                   <p>Sumner, WA</p>
               </div>
-              <div className='my-2 mx-4 flex text-footer-text items-center' >
-                  <div className='flex justify-center items-center border border-main mr-2 w-[35px] h-[35px]' >
-                    <HiPhone className='text-main h-full w-full p-2' />
+              <div className='my-2 mx-4 flex text-footer-text items-center 
+                            hover:text-orange-400 group duration-700'>
+                  <div className='flex justify-center items-center border border-main mr-2 w-[35px] h-[35px]
+                                  group-hover:rounded-lg group-hover:scale-110 duration-1000'>
+                    <a href="mailto:Poweronelectric23@gmail.com">
+                      <HiPhone className='text-main h-full w-full p-2 group-hover:text-orange-400 duration-1000
+                                              group-hover:scale-150' />
+                    </a>
                   </div>
-                  <p>206-466-7202</p>
+                  <a href="tel:206-466-7202">
+                    <p>206-466-7202</p>
+                  </a>
               </div>
               <div className='my-2 mx-4 flex text-footer-text items-center 
                             hover:text-orange-400 group duration-700'>
