@@ -11,7 +11,7 @@ const Nav = () => {
                     height='50px'
                     width='50px' 
                     className='h-10 w-10 mt-1 ml-3' 
-                    alt='company-logo'
+                    alt='Logo'
                 />
             </div>
             <div className='w-full flex items-center justify-center

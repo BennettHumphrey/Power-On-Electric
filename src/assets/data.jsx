@@ -2,13 +2,12 @@
 
 
 export const logo = 'Company-Logo-Crop.webp'
-// export const headerLogo = 'Company-Logo-500.webp'
-export const headerLogo = 'PowerOnLogoNoBGNoPhone.png'
+export const headerLogo = 'PowerOnLogoNoBGNoPhone.webp'
 
 export const services = {
     header: 'We do all types of Residential and Commercial projects!',
     body: '',
-    img: 'bg-[url(/Seattle-Needle-Below.jpg)]',
+    img: 'bg-[url(/Seattle-Needle-Below.webp)]',
     imgPos: 'bg-[center]',
     href:'#services',
     bubbles: [
@@ -32,7 +31,7 @@ export const services = {
 export const about = {
     header: "We Proudly Exceed our Customers' Expectations.",
     body: "At Power On Electric, we prioritize understanding our customer's needs and desires. Our approach emphasizes efficient teamwork, including regular communication among our staff, and upholding a high standard of work in all our endeavors.",
-    img: 'bg-[url(/Switch-Cabinet.jpg)]',
+    img: 'bg-[url(/Switch-Cabinet.webp)]',
     href:'#about',
     bubbles: [
         // {

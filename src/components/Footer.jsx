@@ -22,7 +22,7 @@ const Footer = () => {
                             hover:text-orange-400 group duration-700'>
                   <div className='flex justify-center items-center border border-main mr-2 w-[35px] h-[35px]
                                   group-hover:rounded-lg group-hover:scale-110 duration-1000'>
-                    <a href="mailto:Poweronelectric23@gmail.com">
+                    <a href="tel:206-466-7202">
                       <HiPhone className='text-main h-full w-full p-2 group-hover:text-orange-400 duration-1000
                                               group-hover:scale-150' />
                     </a>

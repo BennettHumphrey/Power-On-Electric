@@ -13,6 +13,8 @@ export default {
       md: '768px',
       lg: '976px',
       xl: '1140px',
+      'h-sm': { raw: '(max-height: 490px)' },
+      'h-xs': { raw: '(max-height: 400px)' },
     },
     extend: {
       colors: {
