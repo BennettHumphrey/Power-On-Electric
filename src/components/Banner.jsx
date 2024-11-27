@@ -10,7 +10,12 @@ const [modalOpen, setModalOpen] = useState(false)
   return (
     <div>
       {modalOpen && <Modal setModalOpen={setModalOpen} />}
-      <div className='bg-[url(/Seattle-Rainier-Day.webp)] h-[440px]
+      <div className='
+                      bg-[url(/Seattle-Rainier-Day-600.webp)] 
+                      md:bg-[url(/Seattle-Rainier-Day-900.webp)] 
+                      lg:bg-[url(/Seattle-Rainier-Day-1200.webp)] 
+                      xl:bg-[url(/Seattle-Rainier-Day-1920.webp)] 
+                      h-[440px]
                       bg-cover bg-fixed flex flex-col gap-3
                       lg:h-[600px] h-xs:h-[500px]
                       max-h-[85vh] h-xs:max-h-[105vh]'>
@@ -18,6 +23,8 @@ const [modalOpen, setModalOpen] = useState(false)
           <img
             src={headerLogo}
             alt='Logo'
+            width={600}
+            height={400}
             className='h-[240px] w-[240px] z-50 pointer-events-none
                       lg:h-[300px] lg:w-[300px]'
           />

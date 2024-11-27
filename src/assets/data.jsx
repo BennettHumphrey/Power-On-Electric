@@ -7,7 +7,7 @@ export const headerLogo = 'PowerOnLogoNoBGNoPhone.webp'
 export const services = {
     header: 'We do all types of Residential and Commercial projects!',
     body: '',
-    img: 'bg-[url(/Seattle-Needle-Below.webp)]',
+    img: 'bg-[url(/Seattle-Needle-Below-600.webp)] md:bg-[url(/Seattle-Needle-Below-900.webp)] lg:bg-[url(/Seattle-Needle-Below-1200.webp)] xl:bg-[url(/Seattle-Needle-Below-1920.webp)]',
     imgPos: 'bg-[center]',
     href:'#services',
     bubbles: [
@@ -31,7 +31,7 @@ export const services = {
 export const about = {
     header: "We Proudly Exceed our Customers' Expectations.",
     body: "At Power On Electric, we prioritize understanding our customer's needs and desires. Our approach emphasizes efficient teamwork, including regular communication among our staff, and upholding a high standard of work in all our endeavors.",
-    img: 'bg-[url(/Switch-Cabinet.webp)]',
+    img: 'bg-[url(/Switch-Cabinet-600.webp)] md:bg-[url(/Switch-Cabinet-900.webp)] lg:bg-[url(/Switch-Cabinet-1200.webp)] xl:bg-[url(/Switch-Cabinet-1920.webp)]',
     href:'#about',
     bubbles: [
         // {

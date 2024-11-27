@@ -22,12 +22,12 @@ const Footer = () => {
                             hover:text-orange-400 group duration-700'>
                   <div className='flex justify-center items-center border border-main mr-2 w-[35px] h-[35px]
                                   group-hover:rounded-lg group-hover:scale-110 duration-1000'>
-                    <a href="tel:206-466-7202">
+                    <a href="tel:206-466-7202" aria-label='Call Button'>
                       <HiPhone className='text-main h-full w-full p-2 group-hover:text-orange-400 duration-1000
                                               group-hover:scale-150' />
                     </a>
                   </div>
-                  <a href="tel:206-466-7202">
+                  <a href="tel:206-466-7202" aria-label='Call Button'>
                     <p>206-466-7202</p>
                   </a>
               </div>
@@ -35,12 +35,12 @@ const Footer = () => {
                             hover:text-orange-400 group duration-700'>
                   <div className='flex justify-center items-center border border-main mr-2 w-[35px] h-[35px]
                                   group-hover:rounded-lg group-hover:scale-110 duration-1000'>
-                    <a href="mailto:Poweronelectric23@gmail.com">
+                    <a href="mailto:Poweronelectric23@gmail.com" aria-label='Email Button'>
                       <HiEnvelope className='text-main h-full w-full p-2 group-hover:text-orange-400 duration-1000
                                               group-hover:scale-150' />
                     </a>
                   </div>
-                  <a href="mailto:Poweronelectric23@gmail.com">
+                  <a href="mailto:Poweronelectric23@gmail.com" aria-label='Email Button'>
                     <p>Poweronelectric23<br/>@gmail.com</p>
                   </a>
               </div>
@@ -73,12 +73,12 @@ const Footer = () => {
 
           
       </div>
-      <div className='text-gray-500 text-[0.7rem] py-4 px-4 bg-footer text-center' >
+      <div className='text-gray-600 text-[0.7rem] py-4 px-4 bg-footer text-center' >
       <div className='flex flex-col  overflow-hidden' >
               <p>Website by Bennett Humphrey</p>
               <a 
-                className='hover:text-orange-400 duration-500 hover:scale-125' 
-                href="https://bennetthumphrey.com" target="_blank">
+                className='hover:text-orange-400 underline underline-offset-2 duration-500 hover:scale-125' 
+                href="https://bennetthumphrey.com" target="_blank" aria-label='Bennett Humphrey web developer site link'>
                 <p>bennetthumphrey.com</p>
               </a>
           </div>

@@ -8,8 +8,8 @@ const Nav = () => {
             <div href='#top' >
                 <img 
                     src={logo} 
-                    height='50px'
-                    width='50px' 
+                    height={50}
+                    width={50}
                     className='h-10 w-10 mt-1 ml-3' 
                     alt='Logo'
                 />
